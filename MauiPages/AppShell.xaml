@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiPages.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiPages"
+    Title="MauiPages">
+
+    <!--
+    <FlyoutItem Title="Home"> 
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Pagina1">
+        <ShellContent
+      Title="Pagina1"
+      ContentTemplate="{DataTemplate local:Pagina1}"
+      Route="MainPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Pagina2">
+        <ShellContent
+  Title="Pagina2"
+  ContentTemplate="{DataTemplate local:Pagina2}"
+  Route="MainPage" />
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="Pagina3">
+        <ShellContent
+  Title="Pagina3"
+  ContentTemplate="{DataTemplate local:Pagina3}"
+  Route="MainPage" />
+    </FlyoutItem>
+    -->
+    <TabBar>
+        <Tab Title="Home" Icon="dotnet_bot.png"  >
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+        </Tab>
+
+        <Tab Title="Pagina1">
+            <ShellContent
+            Title="Pagina1"
+            ContentTemplate="{DataTemplate local:Pagina1}"
+            Route="MainPage" />
+        </Tab>
+
+        <Tab Title="Pagina2">
+            <ShellContent
+            Title="Pagina2"
+            ContentTemplate="{DataTemplate local:Pagina2}"
+            Route="MainPage" />
+        </Tab>
+
+        <Tab Title="Pagina3">
+            <ShellContent
+            Title="Pagina3"
+            ContentTemplate="{DataTemplate local:Pagina3}"
+            Route="MainPage" />
+        </Tab>
+    </TabBar>
+
+
+
+</Shell>
