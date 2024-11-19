@@ -44,7 +44,7 @@
         Route="MainPage" />
         </Tab>
 
-        <Tab Title="Pagina1">
+        <Tab Title="Pagina1" Icon="dotnet_bot.png">
             <ShellContent
             Title="Pagina1"
             ContentTemplate="{DataTemplate local:Pagina1}"

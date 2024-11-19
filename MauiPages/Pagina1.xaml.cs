@@ -8,11 +8,12 @@ public partial class Pagina1 : ContentPage
 	{
 		InitializeComponent();
 		EstudinateUDLARepository estudinateUDLARepository = new EstudinateUDLARepository();
-		var info_estudiante = estudinateUDLARepository.DevuelveInfoEstudainte();
+		var infoEstudiante= estudinateUDLARepository.DevuelveInfoEstudainte();
 
-        Label_ID.Text= info_estudiante.ID;
-		Label_nombre = info_estudiante.Nombre;
-        Label_carrera = info_estudiante.Carrera;
+		Label_ID.Text = infoEstudiante.Id.ToString();
+		Label_nombre.Text = infoEstudiante.Nombre;
+		Label_carrera.Text = infoEstudiante.Carrera;
+
 
 
 

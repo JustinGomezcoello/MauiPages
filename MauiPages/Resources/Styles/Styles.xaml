@@ -426,11 +426,11 @@
 
     <Style TargetType="TabBar">
         <Setter Property="Shell.TabBarBackgroundColor"
-         Value="Green" />
-        <Setter Property="Shell.TabBarTitleColor"
          Value="Black" />
+        <Setter Property="Shell.TabBarTitleColor"
+         Value="Red" />
         <Setter Property="Shell.TabBarUnselectedColor"
-         Value="White" />
+         Value="Orange" />
     </Style>
     
 

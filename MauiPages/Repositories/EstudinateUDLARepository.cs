@@ -13,7 +13,7 @@ namespace MauiPages.Repositories
         {
             return new Estudiante()
             {
-                ID = 1,
+                Id = 1,
                 Nombre = "Justin",
                 Carrera = "Ing de Software"
 

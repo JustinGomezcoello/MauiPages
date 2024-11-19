@@ -5,9 +5,9 @@
              Title="Pagina1">
     <VerticalStackLayout>
         <Label 
-            Text="Informacion de Estudiante"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+         Text="Informacion de Estudiante"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center" />
 
         <Label
          x:Name="Label_ID"
