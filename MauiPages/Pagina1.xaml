@@ -11,20 +11,26 @@
 
         <Label
          x:Name="Label_ID"
-         Text=""
+         Text="{Binding Id}"
          VerticalOptions="Center" 
          HorizontalOptions="Center" />
 
         <Label
           x:Name="Label_nombre"
-          Text=""
+          Text="{Binding Nombre}"
           VerticalOptions="Center" 
           HorizontalOptions="Center" />
         <Label
           x:Name="Label_carrera"
-          Text=""
+          Text="{Binding Carrera}"
           VerticalOptions="Center" 
           HorizontalOptions="Center" />
+
+        <Button
+            x:Name="CambiaNombre"
+            Text="Cambiar Nombre"
+            Clicked="CambiaNombre_Clicked"
+            />
 
     </VerticalStackLayout>
 </ContentPage>
